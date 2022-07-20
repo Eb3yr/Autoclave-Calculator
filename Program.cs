@@ -34,7 +34,7 @@ namespace Autoclave
             float addRate = (WLIn * buyRate) / 20;
 
 
-            Console.WriteLine("\nTools given (ignore column for the tool claved, accounted for in the profit calc): \n");
+            Console.WriteLine("\nTools given (ignore row for the tool claved, accounted for in the profit calc): \n");
             float profit = 0;
             foreach (string i in toolArr)
             {
