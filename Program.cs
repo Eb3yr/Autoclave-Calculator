@@ -48,7 +48,7 @@ namespace Autoclave
             Console.WriteLine("\nGross earnings: " + profit + "WLs");
 
             profit -= WLIn;
-            profit = (float)Math.Round(profit, 3);
+            profit = (float)Math.Round(profit, 3); //Making it look slightly less disgusting
             Console.WriteLine("\nThis gives " + profit + " WLs profit from " + WLIn + "WLs in");
             Console.WriteLine("\n(Note: You may need 13 vends to use to sell, which @ rate 2/9 is 59WL)");
             Console.ReadLine();
