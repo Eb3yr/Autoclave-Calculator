@@ -41,8 +41,8 @@ namespace Autoclave
                 Console.WriteLine(i + ": " + addRate + " (" + (addRate / priceOfRegular) + " WLs)");
                 profit += addRate / priceOfRegular;
             }
-            Console.WriteLine("Stitch: " + WLIn + "(" + (addRate / priceOfStitch) + " WLs)");
-            profit += addRate / priceOfStitch;
+            Console.WriteLine("Stitch: " + WLIn + "(" + (WLIn / priceOfStitch) + " WLs)");
+            profit += WLIn / priceOfStitch;
 
             profit -= addRate / priceOfRegular;
             Console.WriteLine("\nGross earnings: " + profit + "WLs");
